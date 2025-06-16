@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icone.ico">
+
+    <style>
+        fieldset{
+            background-color: grey;
+            border-radius: 20px;
+        }
+
+        form label{
+            display: block;
+            margin-top: 10px;
+            color: white;
+        }
+        legend{
+            color:#4c00ff;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"]{
+            width: 400px;
+            padding: 4px;
+            margin: 5px 10px;
+            color: red;
+        }
+
+        input[type="submit"],
+        input[type="reset"]{
+            background-color: purple;
+            border-radius: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <header>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href='index.html'>Pagina Inicial</a></li>
+            <li><a href='sobre.html'>Sobre</a></li>
+            <li><a href='#'>Contato</a></li>
+        </ul>
+    </nav>
+
+    <hr class="traço">
+
+    <main>
+        <h1>Cadastre-se no Site:</h1><hr>
+
+        <fieldset>
+            <form method="post" action="banco_de_dados.py">
+
+            <label for="nome">Nome: <input type="text" id="nome" name="nome"></label>
+            <label for="e-mail">E-mail: <input type="email" id="e-mail" name="e-mail"></label>
+            <label for="curso">Curso: <input type="text" id="curso" name="curso"></label>
+            <label for="data de nascimento">Data de Nascimento: <input type="date" id="data de nascimento" name="data de nascimento"></label>
+            <input type="submit">
+            <input type="reset">
+
+            </form>
+        </fieldset><hr>
+        
+        <h1>Entre em contato cmg por aqui:</h1>
+        <fieldset>
+            <a href="https://www.instagram.com/der_kropf?igsh=MXRhZXhmaWtyY2k4OQ%3D%3D&utm_source=qr">Instagram</a>
+        </fieldset>
+
+    </main>
+
+    <footer>
+        <span>&copy;2025 Todos os direitos reservados a turma de web 1 manhã.</span>
+    </footer>
+
+</body>
+
+</html>

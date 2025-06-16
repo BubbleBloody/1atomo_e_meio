@@ -1,0 +1,175 @@
+/*-------------Parte Semântica do Site----------------*/
+body {
+    margin: 0;
+	background-image: url(bk_body.jpg);
+	background-size: contain;
+}
+
+header {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+main {
+    padding: 40px 60px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color:rgb(36, 36, 36);
+    border-radius: 25px;
+}
+
+section {
+	padding: 20px;
+	margin-bottom: 40px;
+    background-color:rgb(36, 36, 36);
+	box-shadow: 0px 2px 15px 2px;
+	border-radius: 25px;
+}
+
+footer {
+	height: 100px;
+	background-color: #1e0057;
+    text-align: end;
+    color: white;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------textos------------*/
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #7447dd;
+
+}
+
+h2 {
+	color: chartreuse;
+
+}
+
+h3 {
+
+}
+
+p {
+	color: white;
+    text-indent: 40px;
+	text-align: justify;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------Class's e Id's------------*/
+.traço {
+    color:rgb(216, 1, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.centralizada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 25px;
+}
+
+.lista {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container{
+	display: flex;
+    gap: 50px;
+}
+
+.box{
+	height: 300px;
+	width: 300px;
+	background-color:azure;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+.imagem_artigo{
+	height: 100%;
+	width: 100%;
+}
+
+.box :hover{
+	color: green;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------nav------------*/
+nav {
+	height: 100px;
+	text-align:center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1e0057;
+}
+
+nav ul{
+	display: flex;
+	gap: 40px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav a{
+	text-decoration:none;
+	color: white;
+	font-size: 18px;
+}
+
+nav a:hover{
+	color: #e1ffa8;
+	background-color: black;
+    transition: all 0.5s ease;
+	font-size: 21px;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: green;
+    transition: width 0.3s ease;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+table {
+    background-color: #7447dd;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}

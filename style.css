@@ -7,7 +7,7 @@ body {
 
 header {
   position: relative;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -30,8 +30,8 @@ section {
 footer {
 	height: 100px;
 	background-color: #1e0057;
-    text-align: end;
     color: white;
+    display:grid;
 }
 /*------------------------------------------------------------------------------------------------------------------------*/
 
@@ -108,11 +108,11 @@ p {
 /*------------nav------------*/
 nav {
 	height: 100px;
+    background-color: #1e0057;
 	text-align:center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #1e0057;
 }
 
 nav ul{
@@ -172,4 +172,9 @@ table {
   z-index: 1;
   color: white;
   text-align: center;
+}
+
+footer span{
+    text-align: end;
+    margin: 40px 20px;
 }
